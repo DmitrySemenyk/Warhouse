@@ -6,4 +6,10 @@
 //  Copyright © 2019 Dmitry Semenuk. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ProductViewController: UITableViewController {
+    override func viewDidLoad() {
+        self.viewDidLoad()
+    }
+}

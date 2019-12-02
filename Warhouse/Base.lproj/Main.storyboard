@@ -133,10 +133,10 @@
             </objects>
             <point key="canvasLocation" x="313" y="137"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Product View Controller-->
         <scene sceneID="gzf-0F-Nbg">
             <objects>
-                <tableViewController id="9PU-tV-iQR" sceneMemberID="viewController">
+                <tableViewController id="9PU-tV-iQR" customClass="ProductViewController" customModule="Warhouse" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sTl-tB-NuV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,6 +275,12 @@
                         </connections>
                     </tableView>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="descriptionText" destination="KJH-is-SNy" id="Mgz-iS-osm"/>
+                        <outlet property="idText" destination="xiY-NH-b3C" id="5XG-8C-Vkd"/>
+                        <outlet property="imageView" destination="vqC-Qc-X2P" id="6RQ-3m-hBd"/>
+                        <outlet property="nameText" destination="2uo-Ta-Dtc" id="M2C-Yu-5A3"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Rj-na-shy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
